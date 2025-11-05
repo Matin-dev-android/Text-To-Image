@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme_NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="dialog" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="textAllCaps">false</item>
+
+        <item name="colorPrimary">#938CF4</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Material3.Corner.Large</item>
+
+    </style>
+</resources>
